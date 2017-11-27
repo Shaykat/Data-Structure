@@ -6,7 +6,7 @@ class node
     int data;
     node *next;
 
-public:
+    public:
     node *head,*tail,*np,*p,*ptr;
 
     node()

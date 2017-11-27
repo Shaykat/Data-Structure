@@ -1,0 +1,26 @@
+#include<bits/stdc++.h>
+using namespace std;
+
+class Que
+{
+    int top;
+    int s;
+    int *arr;
+
+public:
+    Que(int a){
+        s = a;
+        arr = new int[a];
+        top = 0;
+    }
+
+    void enqueue(int a){
+        top = a;
+
+    }
+};
+
+int main()
+{
+
+}
